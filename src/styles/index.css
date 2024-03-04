@@ -10,3 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.Nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav li {
+    display: inline-block;
+    margin-left: 10px;  /* Adjust the margin as needed */
+}
+
+.Nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav li {
+    display: inline-block;
+    margin-left: 10px;  /* Adjust the margin as needed */
+}
+
+.Nav li.first {
+    margin-left: 20px;
+}
