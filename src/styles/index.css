@@ -1,5 +1,5 @@
 .Nav  {
-    text-decoration:;
+   
     background-color: gray;
     list-style: none;
     padding: 20px;
@@ -10,6 +10,7 @@
 .Nav li {
     display: inline-block;
     margin-left: 10px;  /* Adjust the margin as needed */
+    
 }
 
 .Nav li.first {
@@ -24,8 +25,29 @@ A {
     text-decoration: none;
     color: white;
 }
-
+.jumbotron{
+    margin-left: 20px;  /* Remove left margin for the first li element */
+    margin-right: 20px;  /* Adjust the right margin for li elements with the 'serie' class */
+}
 .profileCards {
+    border: 1px light gray;
+    text-align: center;
     display: flex;
+    justify-content: space-around;
+}
+
+.card-header {
+    color: white;
+    background-color: gray;
+    margin-left: 20px;  /* Remove left margin for the first li element */
+    margin-right: 20px;  /* Adjust the right margin for li elements with the 'serie' class */
+}
+
+.card-img-top {
+
     
+    background-color: gray;
+/*  
+    width: 500px;
+    height: 325px; */
 }

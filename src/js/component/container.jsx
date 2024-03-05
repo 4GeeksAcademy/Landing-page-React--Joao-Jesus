@@ -1,58 +1,38 @@
 import React from "react";
 
+const generateCard = (title, text, btnText) => {
+  return (
+    <div className="card" style={{ width: '18rem', height: '26rem', margin: '10px' }}>
+      <img className="card-img-top" src="..." alt="Card image cap" />
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{text}</p>
+        <a href="#" className="btn btn-primary">{btnText}</a>
+      </div>
+    </div>
+  );
+}
 
 const Jumbo = () => {
-        
   return (
-    <div ClassName="container-fluid">
-    <div className="jumbotron">
-        <h1 className="display-4">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p className="lead">
-            <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p> 
-        </div>
-        <span className="profileCards">
-        <div className="card" style={{ width: '18rem' }}>
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-
-        <div className="card" style={{ width: '18rem' }}>
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div className="card" style={{ width: '18rem' }}>
-            <img className="card-img-top" src="..." alt="Card image cap" />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div className="card" style={{ width: '18rem'}}>
-    <img className="card-img-top" src="..." alt="Card image cap" />
-    <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-</span>
-
-
-   </div>
+    <div className="container-fluid">
+      <div className="jumbotron">
+        <h1 className="display-4">A warm Welcome!</h1>
+        <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi reprehenderit sed perspiciatis nesciunt sequi porro repudiandae minima eius facere sapiente, pariatur, assumenda architecto id vel molestias nemo doloribus veritatis!</p>
     
-);
-  }
+        <p className="lead">
+          <a className="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
+        </p> 
+      </div>
+
+      <span className="profileCards">
+        {generateCard("Card title", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi ", "Find out more")}
+        {generateCard("Card title", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi.", "Find out more")}
+        {generateCard("Card title", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi.", "Find out more")}
+        {generateCard("Card title", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi.", "Find out more")}
+      </span>
+    </div>
+  );
+}
+
 export default Jumbo;
