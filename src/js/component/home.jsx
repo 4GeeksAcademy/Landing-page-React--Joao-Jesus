@@ -1,20 +1,22 @@
 import React from "react";
 import NavBar from "./nav.jsx";
-import ContainerCard from "./container.jsx";
-// import footer from ".footer.jsx";
+import Jumbo from "./container.jsx";
+import Footer from "./footer.jsx"; // Make sure to correct the import path
 
-//include images into your bundle
+// include images into your bundle
 
-
-//create your first component
+// create your first component
 const Home = () => {
-	return (
-		<NavBar />
-		// <Jumbotron />
-		// <Container />
-		// <Footer />
-		
-	);
+    return (
+        <div>
+            <NavBar />
+            <Jumbo />
+            {/* <Card /> */}
+			<Footer /> 
+            {/* Uncomment and include other components if needed */}
+            
+        </div>
+    );
 };
 
 export default Home;
