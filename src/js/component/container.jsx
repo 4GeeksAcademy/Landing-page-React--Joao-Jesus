@@ -1,5 +1,12 @@
 import React from "react";
 
 
-
-export default Container;
+const ContainerCard = () => {
+        
+    return (
+        <div class="container-fluid">
+        <button type="button" class="btn btn-primary btn-lg">Large button</button>
+        </div>
+    );
+}
+export default ContainerCard;
