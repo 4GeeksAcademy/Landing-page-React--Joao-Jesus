@@ -4,11 +4,11 @@ const Footer = () => {
         
     return (
         
-        <div className="card text-center">
-        <div className="card-header">
+        
+        <div className="card-header text-center">
          Copyright @ Your Website 2024
         </div>
-      </div>
+      
       
     );
 }

@@ -11,8 +11,7 @@ const Home = () => {
         <div>
             <NavBar />
             <Jumbo />
-            {/* <Card /> */}
-			<Footer /> 
+            <Footer /> 
             {/* Uncomment and include other components if needed */}
             
         </div>
