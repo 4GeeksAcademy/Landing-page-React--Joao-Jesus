@@ -20,7 +20,7 @@ const Jumbo = () => {
   return (
     <div className="container-fluid">
       <div className="jumbotron bg-light mb-3">
-        <h1 className="display-4 ">A warm Welcome!</h1>
+        <h1 className="display-2 ">A warm Welcome!</h1>
         <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi reprehenderit sed perspiciatis nesciunt sequi porro repudiandae minima eius facere sapiente, pariatur, assumenda architecto id vel molestias nemo doloribus veritatis!</p>
     
         <p className="lead">
