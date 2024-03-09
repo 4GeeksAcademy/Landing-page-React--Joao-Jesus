@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "./nav.jsx";
-import Jumbo from "./container.jsx";
-import Footer from "./footer.jsx"; // Make sure to correct the import path
+import NavBar from "./NavBar";
+import JumboTron from "./JumboTron";
+import Card from "./Card"
+import Footer from "./Footer"
 
 // include images into your bundle
 
@@ -9,11 +10,16 @@ import Footer from "./footer.jsx"; // Make sure to correct the import path
 const Home = () => {
     return (
         <div>
-            <NavBar />
-            <Jumbo />
-            <Footer /> 
-            {/* Uncomment and include other components if needed */}
-            
+        <NavBar title='Start Bootstrap' />
+        <JumboTron title='A warm Welcome!' description='lorem ipslum .....' btnLead='Call to action!' />   
+        <div className="d-flex">
+        <Card title='Card title' text='Some quick example text to build on the card title and make up the bulk of the card content.' btntext='Find out more' image=''/>
+        <Card title='Card title' text='Some quick example text to build on the card title and make up the bulk of the card content.' btntext='Find out more' image=''/>
+        <Card title='Card title' text='Some quick example text to build on the card title and make up the bulk of the card content.' btntext='Find out more' image=''/>
+        <Card title='Card title' text='Some quick example text to build on the card title and make up the bulk of the card content.' btntext='Find out more' image=''/>
+        
+        </div>
+        <Footer />
         </div>
     );
 };
