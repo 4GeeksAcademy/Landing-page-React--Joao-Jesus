@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         
         
-        <div className="card-footer text-center">
+        <div className="card-footer bg-dark mt-4 text-center">
          Copyright @ Your Website 2024
         </div>
       

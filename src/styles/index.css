@@ -3,7 +3,6 @@
     background-color: #33383f;
     list-style: none;
     padding: 20px;
-    
     text-align: right;  /* Align the entire list to the right */
 }
 
@@ -45,7 +44,7 @@ img {
 
 .card-footer {
     color: white;
-    background-color:#33383f;
+  
     padding: 40px;  
     
 }
@@ -55,27 +54,8 @@ img {
 
 
   
-/* 
-  /* media querys */
-  
-  @media only screen and (max-width: 360px) {
-    /* Add your styles for Galaxy S5 here */
-    .card {
-        display: inline-block;
-        align-items: center;
-        
-        
-    }
 
-  }
-  /* Media query for small screens */
-@media only screen and (max-width: 767px) {
-    /* Add your styles for small screens here */
-    .card {
-        
-        display: inline-block;
-        align-items: center;
-    }
-  }
+  
+
   
    

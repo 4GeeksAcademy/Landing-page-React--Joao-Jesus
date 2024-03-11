@@ -8,7 +8,9 @@ const Card = ( {title, text, btntext, image}) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{text}</p>
+          <div className="card-footer lg-light">
           <a href="#" className="btn btn-primary">{btntext}</a>
+          </div>
         </div>
       </div>
     );
