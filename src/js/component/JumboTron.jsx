@@ -1,5 +1,7 @@
 import React from "react";
 
+
+// Jumbotron component
 const JumboTron = (props) => {
     return (
      

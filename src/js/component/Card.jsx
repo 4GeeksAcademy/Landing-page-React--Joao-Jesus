@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// Card component as requested
 const Card = ( {title, text, btntext, image}) => {
     return (
         <div className="card">

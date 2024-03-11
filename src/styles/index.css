@@ -6,81 +6,61 @@
     
     text-align: right;  /* Align the entire list to the right */
 }
+
 Body {
     padding-top: 100px; /* Adjust the value based on your navbar height */
   }
 
-.Nav li {
-    display: inline-block;
-    margin-left: 10px;  /* Adjust the margin as needed */
-    
-}
 
-.Nav li.first {
-    margin-left: 20px;  /* Remove left margin for the first li element */
-}
 
-.Nav li.serie {
-    margin-right: 20px;  /* Adjust the right margin for li elements with the 'serie' class */
-}
+
 
 A {
     text-decoration: none;
     color: white;
+    margin-left: 10px;
 }
 
 .jumbotron{
-    margin-left: 20px;  /* Remove left margin for the first li element */
-    margin-right: 20px;  /* Adjust the right margin for li elements with the 'serie' class */
+    
     padding-bottom: 80px;
+
+    .btn {
+        margin-left: 10px;
+    }
+    .lead{
+        margin-left: 10px;
+    }
+    .display-2{
+        margin-left: 10px;
+    }
 }
 
-h1 {
-    margin-left: 20px;
+img {
+    width: 500px;
+    height: 325px;
 }
 
-p.lead {
-    margin-left: 20px;
-}
 
-.profileCards {
-    border: 1px light #33383f;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
 
-.card-header {
+.card-footer {
     color: white;
     background-color:#33383f;
     padding: 40px;  
     
 }
 
-.card-img-top {
-    background-color: #cccccc;
-    color: white;
-    position:relative;
-    
-}
 
 
-.alt-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;  /* Customize the color */
-    font-size: 26px;  /* Customize the font size */
-    /* Add more styles as needed */
-  }
+
+
   
 /* 
   /* media querys */
   
   @media only screen and (max-width: 360px) {
     /* Add your styles for Galaxy S5 here */
-    .profileCards {
+    .card {
         display: inline-block;
         align-items: center;
         
@@ -91,7 +71,7 @@ p.lead {
   /* Media query for small screens */
 @media only screen and (max-width: 767px) {
     /* Add your styles for small screens here */
-    .profileCards {
+    .card {
         
         display: inline-block;
         align-items: center;
